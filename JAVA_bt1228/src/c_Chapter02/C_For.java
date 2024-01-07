@@ -1,23 +1,24 @@
 package c_Chapter02;
+//반복문(Loop)
+//: 어떤 작업을 반복적으로 실행하고 싶을 때 사용
 
-// 반복문(Loop)
-// : 어떤 작업을 반복적으로 실행하고 싶을 때 사용
-
-// 자바 반복문 종류
-// : for, while, do-while문
+//자바 반복문 종류
+//: for, while, do-while문
 
 public class C_For {
+
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		// for문
 		// : 특정 조건이 만족될 때까지 코드 블록을 반복 실행
 		// : 규칙이 있는 작업을 반복하는 제어문
 		// : 반복 횟수가 정해져 있을 때 사용
 		
 		// 기본 구조
-//		for (초기화; 조건; 증감) {
-//			조건이 만족될 때까지 실행할 코드
-//		}
-		
+//				for (초기화; 조건; 증감) {
+//					조건이 만족될 때까지 실행할 코드
+//				}
+				
 		// 초기화
 		// : 반복문의 제어 변수를 초기화 (데이터타입 변수명 = 값;)
 		// : 숫자형 변수를 사용하여 반복문이 실행되는 횟수를 제어
@@ -73,8 +74,7 @@ public class C_For {
 		
 		for (int i = 1; i <= 9; i++) {
 			System.out.println(num + " X " + i + " = " + num * i);
-		}
-		
+				}
 	}
-	
+
 }

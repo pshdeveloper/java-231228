@@ -1,4 +1,4 @@
-INDEX VERSION 1.134+C:\けいしかいしい蟹たた\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
+INDEX VERSION 1.134+C:\exlipse-home\.metadata\.plugins\org.eclipse.jdt.core
 1283180251.index
+1865797976.index
 3585946957.index

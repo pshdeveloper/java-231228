@@ -1,15 +1,15 @@
 package c_Chapter02;
-
 import java.util.Scanner;
 
-// while문
-// : 일반적으로 반복 횟수가 지정되어 있지 않을 때 사용하는 반복문
+//while문
+//: 일반적으로 반복 횟수가 지정되어 있지 않을 때 사용하는 반복문
 
-// 조건을 검사하고 해당 조건이 true인 경우 코드 블럭을 실행하는 반복문
-// : if문의 반복 형태
+//조건을 검사하고 해당 조건이 true인 경우 코드 블럭을 실행하는 반복문
+//: if문의 반복 형태
 public class D_While {
-	
+
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		// 기본 구조
 //		while (조건) {
 //			조건이 True일 때 실행할 코드
@@ -36,10 +36,10 @@ public class D_While {
 			if (number % 2 == 0) {
 				// number 출력 X
 				// continue
-				// : 루프 안에서 continue를 만나면 코드 블럭 내에서
+				// : 루프 안에서 continue 를 만나면 코드 블럭 내에서
 				// : 아래에 오는 모든 코드를 무시하고 다시 조건을 검사
 				
-				// 일반적으로 continue문은 조건문과 함께 쓰임
+				// 일반적으로 continue 문은 조건문과 함께 쓰임
 				// : 조건문의 코드블럭 내에 해당 변수를 변경시켜주는 코드가 존재!!
 				number++; 
 				continue;				
@@ -98,4 +98,5 @@ public class D_While {
 		// a.equals(b)의 경우
 		// a와 b가 일치(동등)한지 판단하여 논리값을 반환하는 메소드(기능)
 	}
+
 }

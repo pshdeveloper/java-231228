@@ -1,13 +1,17 @@
 package c_Chapter02;
 
-// 중첩된 반복문(nested loop)
 
-// 중첩 루프
-// : 반복문 안에 또 다른 반복문이 있는 구조
-// : 각 반복마다 내부 루프가 전체를 완전히 반복
+//중첩된 반복문(nested loop)
+
+//중첩 루프
+//: 반복문 안에 또 다른 반복문이 있는 구조
+//: 각 반복마다 내부 루프가 전체를 완전히 반복
+
 public class E_NestedLoop {
 
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
 		// 기본 구조
 //		for (초기화1; 조건1; 증감1) {
 //			for (초기화2; 조건2; 증감2) {
@@ -65,11 +69,23 @@ public class E_NestedLoop {
 		// ***
 		// **
 		// *
+		for(int i = 5; i >=1; i--) {
+			for(int j = 1; j <= i; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
 		
 		// 2.
 		//   *
 		//  ***
 		// *****
-
+		for(int i = 1; i <= 3; i++) {
+			for(int j = 1; j <= 5; j++) {
+				System.out.print("*");
+			}
+		}
+		
 	}
+
 }

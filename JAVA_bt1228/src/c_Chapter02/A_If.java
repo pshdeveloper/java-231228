@@ -1,12 +1,13 @@
 package c_Chapter02;
 
+
 import java.util.Scanner;
 
-// 조건문 (Condition)
-// : 프로그램의 흐름을 제어하는 데 사용되는 기본적인 구조 중 하나
+//조건문 (Condition)
+//: 프로그램의 흐름을 제어하는 데 사용되는 기본적인 구조 중 하나
 
-// 자바의 조건문 종류
-// : if, else, else if, switch 문
+//자바의 조건문 종류
+//: if, else, else if, switch 문
 public class A_If {
 
 	public static void main(String[] args) {
@@ -172,4 +173,7 @@ public class A_If {
 		
 	}
 
+	
+	
+	
 }

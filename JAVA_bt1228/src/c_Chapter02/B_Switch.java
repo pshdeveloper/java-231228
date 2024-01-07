@@ -1,20 +1,19 @@
 package c_Chapter02;
-
 import java.util.Scanner;
 
-// Switch 조건문
-// : 특정 변수 의 값에 따라 실행할 코드 블록의 범위를 결정하는 데 사용
+//Switch 조건문
+//: 특정 변수 의 값에 따라 실행할 코드 블록의 범위를 결정하는 데 사용
 
-// - 비교할 변수를 case 값과 비교하여 같은 case 찾아 해당 case문을 실행
-// - : 같은 값의 case 구문부터 끝까지 실행
+//- 비교할 변수를 case 값과 비교하여 같은 case 찾아 해당 case문을 실행
+//- : 같은 값의 case 구문부터 끝까지 실행
 
-// - break 문으로 종료 시점을 결정 
-// - : break가 있는 case에서 switch 종료
+//- break 문으로 종료 시점을 결정 
+//- : break가 있는 case에서 switch 종료
 
-// - defalut 문으로 해당하는 case가 없을 때 실행할 구문을 작성
+//- defalut 문으로 해당하는 case가 없을 때 실행할 구문을 작성
 
-// 기본 구조
-// switch (비교할 대상) {
+//기본 구조
+//switch (비교할 대상) {
 //		case 비교할 값1:
 		// 비교할 값1과 비교할 대상이 같을 경우 실행할 코드
 //		case 비교할 값2:
@@ -23,9 +22,8 @@ import java.util.Scanner;
 //		...
 //		default:
 		// 비교할 대상과 일치하든 안하든 실행할 코드
-// }
+//}
 public class B_Switch {
-
 	public static void main(String[] args) {
 		// Switch문은 조건에 따라서 코드 실행 범위를 지정하는 것
 		
@@ -92,5 +90,4 @@ public class B_Switch {
 		
 		sc.close();
 	}
-
 }
