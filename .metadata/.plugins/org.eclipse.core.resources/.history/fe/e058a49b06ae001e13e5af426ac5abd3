@@ -153,7 +153,7 @@ public class A_Array01 {
 //		myArray 배열에 8이 존재하는지 확인
 		// 반복문을 통해 배열을 순회하면서 원하는 데이터가 있는지 조건 검색
 		
-		int target = 8;
+		int target = 3;
 		int myArrayLenght = myArray.length;
 		boolean found = false;
 		

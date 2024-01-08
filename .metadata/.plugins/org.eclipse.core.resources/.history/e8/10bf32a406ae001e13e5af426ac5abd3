@@ -155,7 +155,7 @@ public class A_Array01 {
 		
 		int target = 8;
 		int myArrayLenght = myArray.length;
-		boolean found = false;
+		boolean found = true;
 		
 		for (int i = 0; i < myArrayLenght; i++) {
 			if (myArray[i] == target) {
