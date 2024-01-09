@@ -11,7 +11,6 @@ public class B_Array02 {
 		// : 1부터 100사이의 정수
 		int secretNumber = (int)(Math.random() * 100 + 1);
 		// Math.rendom(): 0.0이상 1.0미만의 무작위 실수를 반환
-		
 		// 2. 사용자로부터 정수 입력
 		Scanner sc = new Scanner(System.in);
 		
