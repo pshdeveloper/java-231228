@@ -34,7 +34,7 @@ class Car{
 		// : 이를 구별하기 위해 사용
 		// this.modeld 은 필드, model 은 객체 생성시 받아오는 값
 		this.model = model;
-		this.year = year;	
+		this.year = year;
 	}
 	
 }

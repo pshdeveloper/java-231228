@@ -32,7 +32,7 @@ public class Object04 {
 		// : 객체의 초기 상태를 설정
 		
 		// 클래스명의 클래스의 새로운 객체를 생성
-		// , 해당 객체에 대한 참조(주소0를 myBook 변수에 저장)
+		// , 해당 객체에 대한 참조(주소를 myBook 변수에 저장)
 		// myBook 은  Book 이라는 클래스 타입을 가짐
 		Book myBook = new Book("Little Prince", "Saint");
 		

@@ -6,4 +6,7 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="f_Chapter05.Car"/>
+    <fullyQualifiedTypeName name="f_Chapter05.Student"/>
+    <fullyQualifiedTypeName name="g_Chapter06.Calculator"/>
 </qualifiedTypeNameHistroy>
