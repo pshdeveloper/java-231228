@@ -1,0 +1,37 @@
+package g_Chapter06;
+
+// 사칙연산 클래스
+// : 두 개의 값을 매개변수로 전달받아 사칙 연산 수행
+// : add, subtract, multiply, divide 의 4개의 메서드
+class MyMath {
+	int add(int a, int b) {return a + b; }
+	int subtract(int a, int b) {return a - b; }
+	int multiply(int a, int b) {return a * b; }
+	double divide(int a, int b) {return a / b; }
+}
+
+public class Method03 {
+
+	public static void main(String[] args) {
+		MyMath mm = new MyMath(); // 인스턴스 생성
+		
+		// 메서드의 실행 흐름
+		// 1. main 메서드에서 메서드 add 를 호출 - 인자를 매개변수에 전달
+		// 2. 메서드 add 내에서 중괄호{} 구현부 내의 문장이 순서대로 수행
+		// 3. 메서드 add 의 모든 문장이 실행되거나 return 문을 만나면
+		// 		, 호출된 메서드(main)로 돌아와 이후 문장을 실행
+		// 		, 반환된 값을 value 변수에 할당
+		// 		, 함수가 void 타입으로 바로 출력하는 경우 출력문이 console 창에 출력
+		int value1 = mm.add(10, 20); // 메서드 호출
+		int value2 = mm.subtract(20, 10);
+		int value3 = mm.multiply(5, 3);
+		double value4 = mm.divide(5, 3);
+		
+		System.out.println(value1);
+		System.out.println(value2);
+		System.out.println(value3);
+		System.out.println(value4);
+
+	}
+
+}
