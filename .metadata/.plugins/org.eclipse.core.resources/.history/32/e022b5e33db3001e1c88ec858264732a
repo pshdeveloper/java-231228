@@ -59,7 +59,7 @@ class MyMath {
 		// 조건 ? 조건이 참인 경우 : 조건이 거짓인 경우
 		// return 문에 삼항 연산자 서식이 작성
 		return a > b ?  b :  a;
-	
+	}
 	
 }
 
@@ -85,7 +85,7 @@ public class Method03 {
 		System.out.println(value3);
 		System.out.println(value4);
 		
-			
-		}
+		
 	}
+
 }

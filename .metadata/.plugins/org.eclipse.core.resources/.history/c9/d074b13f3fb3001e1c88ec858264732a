@@ -1,0 +1,16 @@
+package g_Chapter06;
+
+// 정적 메서드
+// : 메서드 앞에 static 키워들르 붙이는 경우 클래스(정적)메서드 생성 가능
+// : 객체를 생성하지 않고도 '클래스명.메서드명(매개변수)'으로 호출 가능
+
+// : 인스턴스 변수와 관계 없는 메서드를 클래스 메서드로 정의
+
+public class Method04 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
