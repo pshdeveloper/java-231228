@@ -9,4 +9,12 @@
     <fullyQualifiedTypeName name="f_Chapter05.Car"/>
     <fullyQualifiedTypeName name="f_Chapter05.Student"/>
     <fullyQualifiedTypeName name="g_Chapter06.Calculator"/>
+    <fullyQualifiedTypeName name="g_Chapter06.Operator"/>
+    <fullyQualifiedTypeName name="javax.naming.spi.DirStateFactory.Result"/>
+    <fullyQualifiedTypeName name="g_Chapter06.Restaurant"/>
+    <fullyQualifiedTypeName name="java.rmi.server.RemoteStub"/>
+    <fullyQualifiedTypeName name="h_Chapter07.Car"/>
+    <fullyQualifiedTypeName name="h_Chapter07.Person"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="parentPackage.ParentPackage"/>
 </qualifiedTypeNameHistroy>
