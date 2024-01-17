@@ -7,7 +7,7 @@ public class ParentPackage {
 	// protected 접근 제한자를 사용한 필드
 	protected String portecteField;
 	
-	public void parentClass() {
+	public void parentclass() {
 		this.portectedField = "Public Field";
 	}
 	

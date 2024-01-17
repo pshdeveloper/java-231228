@@ -17,4 +17,6 @@
     <fullyQualifiedTypeName name="h_Chapter07.Person"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="parentPackage.ParentPackage"/>
+    <fullyQualifiedTypeName name="i_Chapter08.Student"/>
+    <fullyQualifiedTypeName name="j_Chapter09.Vehicle"/>
 </qualifiedTypeNameHistroy>
