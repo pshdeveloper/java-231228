@@ -1,0 +1,15 @@
+package k_Chapter10;
+
+abstract class MobileApp {
+	
+	abstract void execute();
+	
+	void appInfo() {
+		System.out.println("앱 설명");
+}
+
+public class Z_Pratice01 {
+	public static void main(String[] args) {
+		
+	}
+}

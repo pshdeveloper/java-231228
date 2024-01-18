@@ -19,4 +19,6 @@
     <fullyQualifiedTypeName name="parentPackage.ParentPackage"/>
     <fullyQualifiedTypeName name="i_Chapter08.Student"/>
     <fullyQualifiedTypeName name="j_Chapter09.Vehicle"/>
+    <fullyQualifiedTypeName name="k_Chapter10.ExampleClass"/>
+    <fullyQualifiedTypeName name="k_Chapter10.ExampleInterface"/>
 </qualifiedTypeNameHistroy>

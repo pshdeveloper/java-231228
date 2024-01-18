@@ -1,0 +1,31 @@
+package k_Chapter10;
+
+interface Flyable {
+	int MAX_SPEED = 100;
+	void fly();
+	
+	// 디폴드 메서드
+	default void land() {
+		System.out.println("Landing");
+	}
+	
+	// 정적 메서드
+	static int getWingCount() {
+		return 2;
+	}
+}
+
+class Bird implements Flyable {
+	public void fly() {
+		System.out.println("Fly");
+	}
+	
+	@Override
+	public void land() {
+		System.out.println("...Landing...");
+	}
+}
+
+public class C_Interface02 {
+
+}
