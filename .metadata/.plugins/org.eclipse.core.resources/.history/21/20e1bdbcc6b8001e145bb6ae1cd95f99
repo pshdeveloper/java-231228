@@ -1,0 +1,15 @@
+package m_Chapter12;
+
+public class B_Exception {
+	public static void main(String[] args) {
+		//! ReuntimeException
+		// : 프로그르래머의 실수에 의해 발생하는 에외들을 포함
+		// : 컴파일 시점에서 체크되지 X (unchecked exception)
+		// NullPointerException, IndexOutOfBoundsExcpetion 등
+		
+		// 1. NullPointerException 
+		// : 참조변수기 null 값을 가르킬 떄, 해당 변수를 사용할 경우 발생
+		String text = null;
+		int length = text.length();
+	}
+}

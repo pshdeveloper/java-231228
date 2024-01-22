@@ -1,0 +1,63 @@
+package m_Chapter12;
+
+//! 자바의 예외 처리 방법
+// try-catch 블럭, throws 키워드, 사용자 정의 예외
+
+public class A_Exception {
+	public static void main(String[] args) {
+//		System.out.println("안녕"); -Error
+		
+		// 1. 체코 예외
+		// : 개발자가 예외를 처리해야만 하는 예외
+		// : 컴파일러가 예외 처리 코드가 있는지 확인하고, 처리하지 않은 경우 에러 발생
+		
+		// 2. 언체크 예외
+		// : 컴파일러가 강제로 예외 처리를 확인하지 않은 예외
+		// : 처리를 선택적으로 진행
+		
+		//! try-catch 블록
+		// 기본 형태
+//		try {
+//			// 예외가 발생할 수 있는 코드
+//		} catch (ExceptionType e) {
+//			// 예외가 발생했을 때 실행할 코드 
+//		} catch (ExceptionType e2) {
+			// 예외2가 발생했을 때 실행할 코드
+//		>}
+		
+		// try 블록: 예외가 발생할 수 있는 코드를 포함
+		// catch 블록: 특정 예외 타입이 발생했을 때 실행될 코드를 정의
+			// 다중 catch 블록으로 사용 가능(여러 예외 처리)
+		
+		try {
+			int division = 10 / 0;
+		} catch (Exception e) {
+			System.out.println("0으로 나눌 수 없습니다.");
+		}
+		
+		try {
+			String text = null;
+			 // null 의 계산은 예외 - NullPointerException 발생
+			System.out.println(text.length());
+			// 정수를 0으로 나눌 수 없음 - ArithmeticException 발생
+			int division = 10 / 0;
+		} catch (NullPointerException e) {
+			System.out.println("null 참조 발생");
+		} catch (ArithmeticException e) {
+			System.out.println("산술적 예외 발생");
+		}
+		
+		// finally 블럭
+		// : try-catch 구조의 일부 (선택사항)
+		// : 예외 발생 여부와 관계없이 항상 실행되는 코드 블록
+		
+		try {
+			int[] numbers = new int[5];
+			numbers[10] = 50;
+		} catch (ArrayIndexOutOfBoundsException e) {
+			System.out.println("배열 인덱스 초과 오류 발생");
+		}
+		
+		
+	}
+}
