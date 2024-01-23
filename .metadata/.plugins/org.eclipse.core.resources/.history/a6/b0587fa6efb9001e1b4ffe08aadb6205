@@ -5,7 +5,7 @@ package i_Chapter08;
 
 // 같은 패키지 내: import 클래스명
 // 다른 패키지: import 패키지명.클래스파일명;
-import parentPackage.ParentClass;
+import parentPackage.ParentPackage;
 
 // 접근 제어자
 
@@ -51,7 +51,7 @@ class  ChildClass extends PrivateClass {
 
 // 3. protected
 // : 동일한 패키지 내의 모든 클래스와 다른 패키지의 하위 클래스에서 접근 가능
-class ProtectedClass extends ParentClass{
+class ProtectedClass extends ParentPackage{
 	protected int myField;
 	
 	// 메서드 호출은 항상 실행 메서드 내에서 작성되어야 한다.
@@ -62,7 +62,7 @@ class ProtectedClass extends ParentClass{
 		System.out.println(protectedField);
 		
 		// 부모 클래스의 private 필드에 접근
-		protectedMethod();
+		portectedMethod();
 		
 	}
 	

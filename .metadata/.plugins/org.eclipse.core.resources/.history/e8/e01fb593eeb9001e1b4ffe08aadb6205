@@ -20,18 +20,8 @@ class BaseballPlayer {
 	double battingAverage;
 	int homeRus;
 	
-	static int playerCount = 0;
-	
-	public BaseballPlayer(String name, double battingAverage, int homeRus) {
-		this.name = name;
-		this.battingAverage = battingAverage;
-		this.homeRus = homeRus;
-		playerCount++;
-	}
-	
-	public void updateStatus (double newBattingAverage, int newHomeRuns) {
-		battingAverage = newBattingAverage;
-		homeRus = newHomeRuns;
+	double updatestats (double battingAverage) {
+		
 	}
 }
 
@@ -40,11 +30,6 @@ public class MethodPratice {
 	public static void main(String[] args) {
 		// BaseballPlayer 클래ㅔ스로 야구선수 3명의 객체 생성
 		// 총 생성된 선수의 수를 출력
-		BaseballPlayer baseballPlayer = new BaseballPlayer("hoo", 0.325, 20);
-		BaseballPlayer baseballPlayer1 = new BaseballPlayer("hoh", 0.345, 40);
-		BaseballPlayer baseballPlayer2 = new BaseballPlayer("hho", 0.365, 25);
-		
-		System.out.println("총 생성된 선수의 수: " + BaseballPlayer.playerCount);
 
 	}
 

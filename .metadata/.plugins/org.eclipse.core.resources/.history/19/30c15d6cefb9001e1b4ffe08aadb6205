@@ -33,13 +33,9 @@ class Dog1 extends Animal1 {
 // : Cat > 'cat'출력 / Dog > 'dog'출력 / 둘 다 X > 'Unknown animal type'
 
 class AnimalChecker {
-	void checkAnimalType(Animal1 animal) {
-		if(animal instanceof Cat) {
-			System.out.println("This is a cat");
-		} else if (animal instanceof Dog1) {
-			System.out.println("This is a dog");
-		} else {
-			System.out.println("Unknown animal type");
+	void checkAnimalType() {
+		if (cat instanceof Animal1) {
+			System.out.println("cat");
 		}
 	}
 }
@@ -48,15 +44,6 @@ public class Z_Practice01 {
 	public static void main(String[] args) {
 //		Animal, Cat, Dog 클래스의 객체를 Animal 타입으로 저장
 //		생성된 각 객체를 checkAnimalType 메서드를 사용하여 확인
-AnimalChecker animalChecker = new AnimalChecker();
 		
-		Animal1 myPet1 = new Cat();
-		animalChecker.checkAnimalType(myPet1);
-		
-		Animal1 myPet2 = new Dog1();
-		animalChecker.checkAnimalType(myPet2);
-		
-		Animal1 myPet3 = new Animal1();
-		animalChecker.checkAnimalType(myPet3);
 	}
 }
