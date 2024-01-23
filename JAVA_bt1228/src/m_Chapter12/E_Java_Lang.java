@@ -29,6 +29,7 @@ package m_Chapter12;
 // - length(): 문자열의 길이를 반환
 // - equals(데이터1, 데이터2): 두 문자열을 비교
 // - substring(int 시작 인덱스, int 끝인덱스): 부분 문자열을 반환
+
 // - indexOf(String str): 특정 문자열의 위치를 찾음
 // - charAt(int index): 특정 위치의 문자를 반환
 
@@ -53,6 +54,7 @@ public class E_Java_Lang {
 		MyClass myClass = new MyClass(123, "이승아");
 		System.out.println(myClass.toString());
 		
+		System.out.println("Object 클래스");
 		String name = "이승아";
 		System.out.println(name);
 		String nickname = name;
@@ -71,5 +73,24 @@ public class E_Java_Lang {
 		System.out.println(Math.pow(2, 4));
 		
 		System.out.println("String 클래스");
+		String hello = "Hello, World!";
+		
+		// 길이 : 13
+		// >> 문자열의 길이에는 문자 뿐만 아니라 기호와 띄어쓰기도 포함
+		int length = hello.length();
+		System.out.println(length);
+		
+		// equals 메서드는 boolean 값을 반환
+		
+		boolean isEqual = hello.equals("hello, World!");
+		System.out.println(isEqual);
+		
+		// substring(시작번호, 끝번호);
+		// 시작 번호는 포함(이상)
+		// 끝 번호는 포함하지 않은(미만)
+		String sub = hello.substring(7,12); // "World"
+		System.out.println(sub);
+		
+		
 	}
 }
