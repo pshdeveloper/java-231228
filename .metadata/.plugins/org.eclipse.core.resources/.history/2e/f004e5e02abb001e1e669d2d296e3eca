@@ -1,0 +1,19 @@
+package q_Chapter16.model;
+
+import java.util.Map;
+
+// 음식점 메뉴 주문 시스템
+// - 사용자가 메뉴를 선택, 수량을 입력 >> 총 가격을 계산
+// - 종료 옵션을 선택할 때까지 반복하여 메뉴 선택을 받음
+
+public class OrderModel1 {
+	// 메뉴 이름-키, 가격-값으로 하는 HashMap 선언
+	private Map<String, Integer> menuPrices;
+	
+	// 주문된 메뉴의 이름-키, 주문 수량-값으로 하는 HashMap 선언
+	private Map<String, Integer> order;
+	
+	// 주문이 완료되었ㄴ느지를 나타내는 불리언 변수 선언
+	private boolean isComplete;
+	
+}

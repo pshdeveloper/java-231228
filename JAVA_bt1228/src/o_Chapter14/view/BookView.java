@@ -31,7 +31,7 @@ public class BookView {
 		System.out.println("메뉴룰 선택해주세요 : ");
 		
 		// 사용자로부터 선택을 입력 받기
-		int choice = sc.nextInt();
+		choice = sc.nextInt();
 		sc.nextLine(); // 숫자 입력 후 엔터 키 처리
 		
 		// 사용자의 선택에 따라 적절한 메서들르 호출
@@ -50,62 +50,6 @@ public class BookView {
 			break;
 		}
 	}
-	
-	private void addBookView() {
-		System.out.println("책의 제목을 입력해주세요.");
-		String title = sc.nextLine();
-		
-		System.out.println("책의 저자를 입력해주세요.");
-		String author = sc.nextLine();
-		
-		System.out.println("책의 출판사를 입력해주세요.");
-		String publisher = sc.nextLine();
-		
-		bookController.addBook(title, author, publisher);
-	}
-	}
-	
-	private void showAllBooks() {
-		List<Book> allBooks = bookController.getAllBooks();
-		for(Book book : allBooks) {
-			System.out.println(book.toString());
-		}
-	}
-	
-	private void searchBookView() {
-		System.out.println("책을 검색해주세요.");
-		String title = sc.nextLine();
-		List<Book> foundBooks = bookController.searchBook(title);
-		for(Book book : foundBooks) {
-			System.out.println(book.toString());
-		}
-	}
-		// 책 추가, 모든 책 조회, 책 검색, 서비스 중단
-		System.out.println("1. Add a book");
-		System.out.println("2. Show all books");
-		System.out.println("3. Search for a book");
-		System.out.println("4. Quit");
-		System.out.println("메뉴룰 선택해주세요 : ");
-		
-		// 사용자로부터 선택을 입력 받기
-		int choice = sc.nextInt();
-		sc.nextLine(); // 숫자 입력 후 엔터 키 처리
-		
-		// 사용자의 선택에 따라 적절한 메서들르 호출
-		switch(choice) {
-		case 1:
-			addBookView();
-			break;
-		case 2:
-			showAllBooks();
-			break;
-		case 3:
-			searchBookView();
-			break;
-		default:
-			System.out.println("종료하겠습니다.");
-			break;
-		}
 	}
 	
 	private void addBookView() {
@@ -120,6 +64,7 @@ public class BookView {
 		
 		bookController.addBook(title, author, publisher);
 	}
+	
 	
 	private void showAllBooks() {
 		List<Book> allBooks = bookController.getAllBooks();
@@ -137,3 +82,4 @@ public class BookView {
 		}
 	}
 }
+
